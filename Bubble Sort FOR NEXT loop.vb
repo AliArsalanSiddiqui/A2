@@ -3,12 +3,6 @@
     Sub Main()
         Dim NUM(5) As Integer
         Dim x, y, temp, n As Integer
-
-
-        For x = 1 To 5
-            NUM(x) = 0
-        Next
-
         For x = 1 To 5
             Console.Write("Enter Value." & x & ":")
             temp = Console.ReadLine
