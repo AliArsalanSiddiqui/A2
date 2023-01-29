@@ -1,4 +1,4 @@
-﻿Module Module1
+Module Module1
 
     Sub Main()
         Dim namesArr(5) As String
@@ -9,13 +9,8 @@
         lb = 0
         ub = 5
         isFound = False
-
-        'Initialisation
-        For a = 0 To 5
-            namesArr(a) = ""
-        Next
-
-        'populate
+        
+        'small code to allow user to enter thier own names
         For a = 0 To 5
             Console.Write("Enter name " & a & ":" & " ")
             sName = Console.ReadLine
@@ -49,7 +44,6 @@
         End If
         Console.WriteLine("Location name found at is: " & m)
         Console.ReadKey()
-
 
     End Sub
 
