@@ -1,4 +1,4 @@
-﻿Module Module1
+Module Module1
     Dim TopOfStack As Integer
     Dim stack(10) As String
     Dim item As String
@@ -25,6 +25,7 @@
     Sub Main()
         TopOfStack = -1
         'insert any name of your choice in Push()
+        'push can be called as many times as the index of the stack like in this case 10 times
         Call Push("umer")
         Call Push("Ali")
         Call Push("ahad")
