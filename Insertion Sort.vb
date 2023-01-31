@@ -1,6 +1,6 @@
 Module Module1
     Dim Score(8) As Integer
-    Dim arraysize, Temp1, Position As Integer
+    Dim arraysize, Temp, Position As Integer
 
     Sub Main()
 
@@ -15,7 +15,7 @@ Module Module1
         ShowUnsortedArray()
 
     For Pointer = 1 To 8
-        Temp1 = Score(Pointer)
+        Temp = Score(Pointer)
             Position = Student
             Do While (Position > 1) And (Score(Position - 1) > Temp1) ' ">" will sort in ascending order while "<" will sort in descending order
                 Score(Position) = Score(Position - 1)
