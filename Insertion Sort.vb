@@ -16,10 +16,10 @@ Module Module1
 
     For Pointer = 1 To 8
         Temp = Score(Pointer)
-            Position = Student
-            Do While (Position > 1) And (Score(Position - 1) > Temp1) ' ">" will sort in ascending order while "<" will sort in descending order
+        Position = Pointer  
+            Do While (Position > 1) And (Score(Position - 1) > Temp) ' ">" will sort in ascending order while "<" will sort in descending order
                 Score(Position) = Score(Position - 1)
-                Score(Position - 1) = Temp1
+                Score(Position - 1) = Temp
                 Position = Position - 1
             Loop
         Next
