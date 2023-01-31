@@ -5,7 +5,7 @@
         Dim x, y, temp, n As Integer
         Dim NoMoreSwap As Boolean
         For x = 1 To 5
-            Console.Write("Enter Value." & x & " :")
+            Console.Write("Enter Value " & x & " :")
             temp = Console.ReadLine
             NUM(x) = temp
         Next
