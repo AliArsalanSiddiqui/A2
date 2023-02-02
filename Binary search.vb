@@ -9,7 +9,7 @@ Module Module1
         lb = 0
         ub = 5
         isFound = False
-        
+
         'small code to allow user to enter thier own names
         For a = 0 To 5
             Console.Write("Enter name " & a & ":" & " ")
@@ -17,16 +17,15 @@ Module Module1
             namesArr(a) = sName
         Next
 
-        'output all
+        Console.WriteLine()
         For a = 0 To 5
             Console.WriteLine(namesArr(a))
         Next
-
-        'searching
+        Console.WriteLine()
         Console.Write("Enter Name to search for: ")
         sName = Console.ReadLine
         While lb <= ub And isFound = False
-            m = (lb + ub) \ 2 '\ is DIV function in VB
+            m = (lb + ub) \ 2
             If sName = namesArr(m) Then
                 isFound = True
             End If
