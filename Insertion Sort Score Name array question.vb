@@ -1,4 +1,4 @@
-﻿Module Module1
+Module Module1
     Dim Score(5) As Integer
     Dim Name(0 To 5, 2) As String
     Dim Temp1, Position As Integer
@@ -6,12 +6,12 @@
     Sub Main()
 
         For x = 1 To 5
-            Console.WriteLine("Enter Number " & x & ":")
+            Console.Write("Enter Number " & x & ": ")
             Score(x) = Console.ReadLine
-            Console.WriteLine("Enter FirstName " & x & ":")
+            Console.Write("Enter FirstName " & x & ": ")
             Name(x, 1) = Console.ReadLine
-            Console.WriteLine("Enter LastName " & x & ":")
-            Name(x, 2) = Console.ReadLine
+            Console.Write("Enter LastName " & x & ": ")
+            Name(x, 2) = Console.Read
         Next
 
         Console.WriteLine()
