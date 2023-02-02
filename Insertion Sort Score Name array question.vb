@@ -6,12 +6,12 @@ Module Module1
     Sub Main()
 
         For x = 1 To 5
-            Console.Write("Enter Number " & x & ": ")
+            Console.WriteLine("Enter Number " & x & ": ")
             Score(x) = Console.ReadLine
-            Console.Write("Enter FirstName " & x & ": ")
+            Console.WriteLine("Enter FirstName " & x & ": ")
             Name(x, 1) = Console.ReadLine
-            Console.Write("Enter LastName " & x & ": ")
-            Name(x, 2) = Console.Read
+            Console.WriteLine("Enter LastName " & x & ": ")
+            Name(x, 2) = Console.ReadLine
         Next
 
         Console.WriteLine()
